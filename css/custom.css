@@ -1,0 +1,161 @@
+body {
+  margin-top: 50px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.navbar {
+  background: #000;
+}
+.navbar-brand, .navbar-brand:hover {
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  font-weight: bold;
+}
+.tech {
+  color: #FB4F46;
+}
+.fa-phone, .fa-envelope {
+  color: #FB4F46;
+  margin: 10px 10px 5px;
+}
+.fa-square-o {
+  color: #FB4F46;
+  margin: 0px 10px 5px;
+}
+.info {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.number {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-right: 10px;
+}
+.header-image {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.png') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.headline {
+  padding: 80px 0px 30px;
+}
+.type-wrap h1 {
+  padding: 20px 0px;
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  font-size: 60px;
+}
+@media(max-width:1200px) {
+  .type-wrap h1 {
+    font-size: 35px;
+  }
+}
+@media(max-width:991px) {
+  .type-wrap h1 {
+    font-size: 33px;
+  }
+}
+@media(max-width:768px) {
+  .type-wrap h1 {
+    font-size: 20px;
+  }
+  .fa-phone, .fa-envelope {
+    color: #FB4F46;
+    margin: 0px 10px 5px;
+  }
+}
+@media(max-width:640px) {
+  .type-wrap h1 {
+    font-size: 20px;
+  }
+}
+.callout {
+  padding: 10px 0px;
+  background: #111;
+}
+.callout h4 {
+  color: #fff;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.dark-background {
+  background: #555;
+  padding: 50px 0px 80px;
+}
+.dark {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+}
+.semi-dark {
+  background: #222;
+  color: #fff;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+li {
+  color: #fff;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+.cost {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.text-muted {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+.how-works {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.line-space {
+  border-top: 2px solid #fff;
+  width: 200px;
+  padding-bottom: 30px;
+}
+.promo {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  margin: 30px 0px;
+}
+.promo h4 {
+  color: #fff;
+  font-weight: bold;
+}
+.promo p {
+  color: #fff;
+}
+.fa-calendar, .fa-truck, .fa-search, .fa-wrench, .fa-check {
+  color: #000;
+}
+.fa-square {
+  color: #FB4F46;
+}
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 15px 0px 0px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.schedule {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #B5130B;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0px 10px;
+  padding-bottom: 5px;
+}
+.fa-twitter, .fa-facebook {
+  color: #000;
+}
+.fa-circle {
+  color: #FB4F46;
+}
